@@ -1,0 +1,37 @@
+CACHE MANIFEST 
+# v2.5.5 Self-Host 
+
+about.html
+alert.mjs
+cache.html
+config.mjs
+COPYING
+index.html
+lapse.mjs
+LICENSE
+payload.bin
+payload.js
+psfree.mjs
+README.md
+send.mjs
+fonts\FONTS.LICENSE
+fonts\LiberationMono-Regular.ttf
+fonts\README.txt
+kpatch\900.c
+kpatch\900.d
+kpatch\900.elf
+kpatch\900.o
+kpatch\Makefile
+kpatch\script.ld
+kpatch\types.h
+kpatch\utils.h
+module\chain.mjs
+module\constants.mjs
+module\int64.mjs
+module\mem.mjs
+module\memtools.mjs
+module\offset.mjs
+module\rw.mjs
+module\utils.mjs
+module\view.mjs
+rop\900.mjs
