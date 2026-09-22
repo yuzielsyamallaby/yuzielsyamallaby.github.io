@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html manifest="700.manifest">
+<head>
+<title>PS4 GoldHEN Host</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Menginstal Cache Offline" + Percent + "%";}
+function DisplayCacheProgress(){window.msgs.innerHTML="Cache Berhasil Diinstal ✔";setTimeout(function(){window.msgs.innerHTML="Sekarang tutup dan buka kembali browser Anda ...";},1500);}
+window.applicationCache.addEventListener("progress",DLProgress,false);
+window.applicationCache.oncached=function(e){DisplayCacheProgress();};
+window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+window.applicationCache.onerror=function(e){window.msgs.innerHTML="Terjadi Kesalahan Saat Menginstal Cache! - Bersihkan dan Buka Kembali Browser Anda ...";};
+</script>
+<br>
+<h1 id=msgs style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;">Memulai Instalasi Cache...</h1>
+</body>
+</html>
